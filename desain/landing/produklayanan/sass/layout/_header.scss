@@ -1,0 +1,97 @@
+/*
+ * Header Styles
+ */
+
+.site-header{
+	background: $secondary-color;
+	padding: 20px 0;
+	.logo{
+		float: left;
+	}
+	.main-navigation{
+		float: right;
+		
+		.menu-toggle{
+			border: none;
+			background: none;
+			color: $accent-color;
+			padding: 5px;
+			@include em(24);
+			vertical-align: middle;
+			display: none;
+			outline: none;
+
+			@media screen and (max-width: 990px){ display: block;}
+		}
+		.menu{
+			list-style: none;
+			display: inline-block;
+			vertical-align: middle;
+			@include clearfix;
+
+			@media screen and (max-width: 990px){ display: none;}
+		}
+		.menu-item{
+			float: left;
+			padding: 10px 0;
+			position: relative;
+
+
+			&:after{
+				content:" ";
+				height: 1px;
+				position: absolute;
+				left: 20px;
+				right: 20px;
+				bottom: 0;
+				background: $accent-color;
+				opacity: 0;
+				transform: translateY(-50px);
+				transition: .3s ease-out;
+			}
+
+			&:hover,&.current-menu-item{
+				&:after{
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+			a{
+				color: white;
+				padding: 0 20px;
+				@include em(14);
+				border-right: 1px solid rgba(255,255,255,.1);
+			}
+	
+			&:hover a,
+			&.current-menu-item a{color: $accent-color}
+			
+		}
+	}
+
+	.mobile-navigation{
+		clear: both;
+		padding-top: 30px;
+		display: none;
+		@media screen and (min-width: 991px){ display: none!important;}
+		.menu{
+			list-style: none;
+			background: $accent-color;
+		}
+		.menu-item{
+			padding: 10px;
+			border-bottom: 1px solid rgba(255,255,255,.4);
+			transition: .3s ease;
+
+			&.current-menu-item,&:hover{
+				background: darken($accent-color,10%);
+			}
+
+			&:last-child{border-bottom: none}
+		}
+		a{
+			color: white;
+			display: block;
+		}
+	}
+}

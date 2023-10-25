@@ -1,0 +1,140 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class DataPrestasi extends E_Controller{
+
+  public function __construct()
+  {
+    parent::__construct();
+    $this->load->model("ModelDataPrestasi");
+    // $this->load->helper('download'));
+  }
+
+  function index()
+  {
+    $dataprestasi = $this->ModelDataPrestasi->get_data();
+    $data = array(
+      'body' => 'DataPrestasi/list',
+      'dataprestasi' => $dataprestasi,
+     );
+    $this->load->view('index', $data);
+  }
+
+  function export_data(){
+
+      $id = $this->input->post('id');
+      $prestasi_ormawa = $this->ModelDataPrestasi->get_export($id);
+
+      if($prestasi_ormawa == null){
+        $this->session->set_flashdata("notif",$this->Notif->gagal("Gagal Export Data, Tidak Ada Data Prestasi Mahasiswa !!"));
+        redirect(base_url()."DataPrestasi");
+      }
+
+      $this->load->library("excel");
+      $object = new PHPExcel();
+      $object->setActiveSheetIndex(0);
+      $table_columns = array("No. ","NIM","Nama Mahasiswa", "Nama Kegiatan","Tanggal Kegiatan","Prestasi","Lingkup Prestasi","Penyelenggara");
+
+      $column = 0;
+      foreach($table_columns as $field){
+        $object->getActiveSheet()->setCellValueByColumnAndRow($column, 1, $field);
+        $column++;
+      }
+
+      $employee_data = $prestasi_ormawa;
+      $no = 1;
+      $excel_row = 2;
+      foreach($employee_data as $row){
+        $object->getActiveSheet()->setCellValueByColumnAndRow(0, $excel_row, $no++);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(1, $excel_row, $row->nim);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(2, $excel_row, $row->nama_user);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(3, $excel_row, $row->nama_kegiatan);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(4, $excel_row, $row->tanggal_kegiatan);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(5, $excel_row, $row->prestasi);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(6, $excel_row, $row->lingkup_prestasi);
+        $object->getActiveSheet()->setCellValueByColumnAndRow(7, $excel_row, $row->penyelenggara);
+        $excel_row++;
+      }
+
+      $object_writer = PHPExcel_IOFactory::createWriter($object, 'Excel5');
+      header('Content-Type: application/vnd.ms-excel');
+      header('Content-Disposition: attachment;filename="Data Prestasi Mahasiswa.xls"');
+      $object_writer->save('php://output');
+    }
+
+  function edit()
+  {
+    $id = base64_decode($this->uri->segment(3));
+    $dataprestasi = $this->ModelDataPrestasi->get_data_edit($id);
+    $data = array(
+      'body' => 'DataPrestasi/edit',
+      'form' => 'DataPrestasi/form',
+      'dataprestasi' => $dataprestasi,
+     );
+    $this->load->view('index', $data);
+  }
+
+  function data_foto(){
+    $id = base64_decode($this->uri->segment(3));
+    $cek = $this->db->get_where('tb_prestasi_mahasiswa',array('id' => $id ))->row();
+    $data_foto = $this->db->get_where('tb_foto_prestasi', array('id_prestasi' => $id))->result();
+    // var_dump($data_foto);
+    // die;
+    if(!empty($cek)){
+    $data = array(
+      'body' => 'DataPrestasi/data_foto',
+      'id_prestasi' => $id,
+      'data_foto' => $data_foto,
+     );
+    $this->load->view('index', $data);
+  }else{
+    // $this->session->set_flashdata("notif",$this->Notif->berhasil("Gagal Input Data"));
+    redirect(base_url()."DataPrestasi");
+  }
+ }
+
+ function download_gambar($file){
+		force_download('file/'.$file,NULL);
+	}
+
+  function update(){
+    $id = $this->input->post('id_user');
+    $nama_kegiatan = $this->input->post('nama_kegiatan');
+    $kategori = $this->input->post('kategori');
+    $tanggal_kegiatan = $this->input->post('tanggal_kegiatan');
+    $prestasi = $this->input->post('prestasi');
+    $lingkup_prestasi = $this->input->post('lingkup_prestasi');
+    $penyelenggara = $this->input->post('penyelenggara');
+
+    $prodi = array(
+      'nama_kegiatan' => $nama_kegiatan,
+      'kategori' => $kategori,
+      'tanggal_kegiatan' => $tanggal_kegiatan,
+      'prestasi' => $prestasi,
+      'lingkup_prestasi' => $lingkup_prestasi,
+      'penyelenggara' => $penyelenggara,
+    );
+
+    $this->db->where("id",$id);
+    if ($this->db->update("tb_prestasi_mahasiswa",$prodi)) {
+      $this->session->set_flashdata("notif",$this->Notif->berhasil("Berhasil Edit Data"));
+      redirect(base_url()."DataPrestasi");
+    }else{
+      $this->session->set_flashdata("notif",$this->Notif->gagal("Gagal Edit Data"));
+      redirect(base_url()."DataPrestasi");
+
+    }
+  }
+
+  function detail_lampiran()
+  {
+      $id = $this->input->post('id');
+      $lampiran = $this->db->get_where('tb_lampiran_prestasi', array('id_prestasi' => $id))->result();
+      // $syarat_surat = array('ktp','kk','sktm','khs','daful');
+      $no = 1;
+      foreach ($lampiran as $value) {
+        echo '<a style="text-align:center" href="'.base_url("file/$value->lampiran").'" target="_blank"> <button class="btn btn-primary btn-sm">Sertifikat '.$no++.'</button></a><br><br>';
+      }
+  }
+
+}

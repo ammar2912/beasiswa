@@ -1,0 +1,29 @@
+.badge-hapus{
+  position: absolute;
+  top: 36px;
+  left: 57px;
+}
+.badge-atas{
+  position: absolute;
+  top: 36px;
+  right: 54px;
+}
+.btn-atas{
+  position: absolute;
+  top: 25px;
+  right: 17px;
+}
+.btn-hapus{
+  position: absolute;
+  top: 25px;
+}
+
+.myalert {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    float: right;
+    width: 400px;
+    max-width: 400px;
+
+}

@@ -1,0 +1,15 @@
+// Font family
+$primary-font      : "Open Sans","Droid Sans","Roboto","Helvetica Neue", sans-serif;
+
+// Color Variables
+$accent-color      : #97c7bd;
+$primary-color     : $accent-color;
+$secondary-color   : #29282b;
+
+$strong-color      : $accent-color;
+$body-color        : #8f9795;
+$body-color-2      : #9c9b9f;
+$border-color      : #9c9b9f;
+// Grid system
+$grid-columns      : 12 !default;
+$grid-gutter-width : 30px !default;
