@@ -42,9 +42,84 @@ integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQV
         <div class="row mx-0">
             <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                 <div>
-                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">BEASISWA </div>
+                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">BEASISWA 
+                      <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      <a class="navbar-brand" href="beasiswa/loginbeasiswa">
+                      <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                     
+                       </a>
+                      </form> 
+                    </div>    
                 </div>
-                <div class="table-responsive">
+                <div class="row">
+
+
+  <div class="col-sm-6">
+    <div class="card ">
+      <div class="card-body">
+        <h5 class="card-title">BEASISWA PEMKAB 2021</h5>
+        <p class="card-text">Beasiswa Pendidikan Tinggi Pemerintah Daerah Kebupaten Jember merupakan salah satu program unggulan Pemerintah Kabupaten Jember yang tercantum dalam DPA-APBD Tahun 2021.</p>
+    <p class="card-text">Penyelenggara             : PEMKAB JEMBER 2021
+                        Lama Beasiswa            : Selama Jenjang Studi Mahasiswa </p>
+    <p class="card-text">Tanggal Pendaftaran : 27 Oktober 2023
+Tanggal Penutupan    : 28 Desember 2023 </p>                    
+        <a href="beasiswa/detailbeasiswa" class="btn btn-primary ">DETAIL</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">BEASISWA PEMKAB 2021</h5>
+        <p class="card-text">Beasiswa Pendidikan Tinggi Pemerintah Daerah Kebupaten Jember merupakan salah satu program unggulan Pemerintah Kabupaten Jember yang tercantum dalam DPA-APBD Tahun 2021.</p>
+        <p class="card-text">Penyelenggara             : PEMKAB JEMBER 2021
+                        Lama Beasiswa            : Selama Jenjang Studi Mahasiswa </p>
+    <p class="card-text">Tanggal Pendaftaran : 27 Oktober 2023
+Tanggal Penutupan    : 28 Desember 2023 </p> 
+        <a href="#" class="btn btn-primary">DETAIL</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+    <div class="card ">
+      <div class="card-body">
+        <h5 class="card-title">BEASISWA PEMKAB 2021</h5>
+        <p class="card-text">Beasiswa Pendidikan Tinggi Pemerintah Daerah Kebupaten Jember merupakan salah satu program unggulan Pemerintah Kabupaten Jember yang tercantum dalam DPA-APBD Tahun 2021.</p>
+    <p class="card-text">Penyelenggara             : PEMKAB JEMBER 2021
+                        Lama Beasiswa            : Selama Jenjang Studi Mahasiswa </p>
+    <p class="card-text">Tanggal Pendaftaran : 27 Oktober 2023
+Tanggal Penutupan    : 28 Desember 2023 </p>                    
+        <a href="#" class="btn btn-primary">DETAIL</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">BEASISWA PEMKAB 2021</h5>
+        <p class="card-text">Beasiswa Pendidikan Tinggi Pemerintah Daerah Kebupaten Jember merupakan salah satu program unggulan Pemerintah Kabupaten Jember yang tercantum dalam DPA-APBD Tahun 2021.</p>
+        <p class="card-text">Penyelenggara             : PEMKAB JEMBER 2021
+                        Lama Beasiswa            : Selama Jenjang Studi Mahasiswa </p>
+    <p class="card-text">Tanggal Pendaftaran : 27 Oktober 2023
+Tanggal Penutupan    : 28 Desember 2023 </p> 
+        <a href="#" class="btn btn-primary">DETAIL</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+
+
+
+
+
+
+                
+               <!-- <div class="table-responsive">
                   <table id="TableR5" class="table table-bordered table-hover table-striped DataTable">
                           <thead>
                               <tr>
@@ -72,7 +147,7 @@ integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQV
                               <?php $no++; endforeach; ?>
                           </tbody>
                       </table>
-              </div>
+              </div>-->
             </div>
         </div>
     </div>

@@ -145,6 +145,20 @@ class Beasiswa extends CI_Controller{
     }
 
 
+    public function detailbeasiswa()
+    {
+      $this->load->view('Beasiswa/detail');
+    }
+
+    public function loginbeasiswa()
+    {
+      $this->load->view('Beasiswa/login');
+    }
+
+    public function datapribadibeasiswa()
+    {
+      $this->load->view('Beasiswa/datapribadi');
+    }
 
 
 
