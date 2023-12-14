@@ -8,13 +8,12 @@ class Beasiswa extends CI_Controller{
     parent::__construct();
     //Codeigniter : Write Less Do More
     $this->load->model("ModelBeasiswa");
+    $this->load->model("ModelDetail");
   }
 
   function index()
   {
-    $data = array(
-      'data'     => $this->ModelBeasiswa->get_all()->result(),
-     );
+    $data['all_data'] = $this->ModelDetail->get_all();
     $this->load->view('Landing/Beasiswa/list',$data);
   }
 

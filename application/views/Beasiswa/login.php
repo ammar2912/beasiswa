@@ -72,10 +72,10 @@
 <body>
     <div class="login-container">
         <div class="logo">
-            <img src="<?=base_url('img/polije.png') ?>" alt="Logo">
+            <img src="<?=base_url('desain/logo_polije.png') ?>" alt="Logo">
         </div>
         <h2>Login</h2>
-        <form action="" method="post">
+        <form action="<?= base_url('loginuser/process_login') ?>" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username">
@@ -90,6 +90,11 @@
             </div>
            
         </form>
+        <?php
+            if ($this->session->flashdata('error')) {
+            echo '<div class="alert alert-info" style="color: red">' . $this->session->flashdata('error') . '</div>';
+            }
+        ?>
     </div>
 
     
