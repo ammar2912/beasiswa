@@ -97,7 +97,7 @@
           </ul>
         </li>
         <li><a href="<?php echo base_url() ?>KontakHubung" class="<?php if ($url == "KontakHubung"): ?>active<?php endif; ?>">KONTAK HUBUNG</a></li>
-        
+        <li><a href="<?php echo base_url() ?>Beasiswa/loginbeasiswa" class="<?php if ($url == "Beasiswa/loginbeasiswa"): ?>active<?php endif; ?>">AKUN</a></li>
         <!-- <li><a href="https://layanan-p3m.polije.ac.id/">LAYANAN P3M</a></li> -->
         <!-- <li><a href="<?php echo base_url('Home/admin') ?>">MONITORING P3M</a></li> -->
         <!-- <li><a href="#map">Hubungi Kami</a></li>
