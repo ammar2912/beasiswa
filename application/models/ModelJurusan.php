@@ -11,7 +11,7 @@ class ModelJurusan extends CI_Model{
 
   function get_list()
   {
-    return $this->db->get("jurusan");
+    return $this->db->get("tb_jurusan");
   }
 
   function get_data($id)
