@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = "http://localhost/beasiswa";
+$config['base_url'] = "http://localhost:8080/ormawa-production";
 $config['fonts_path']= "font";
 
 /*
