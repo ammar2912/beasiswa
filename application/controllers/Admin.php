@@ -32,7 +32,7 @@ class Admin extends CI_Controller{
                     'username' => $data_login['username'],
                 );
                 $this->session->set_userdata($data_session);
-                $this->load->view("beasiswa/dashboardAdmin");
+                $this->load->view("beasiswa/userManagement");
             }else{
                 $this->session->set_flashdata("message", "Password salah");
                 redirect('admin');
