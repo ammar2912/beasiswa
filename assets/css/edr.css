@@ -1,0 +1,716 @@
+.data-rekening-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .data-rekening-data-rekening {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .data-rekening-navbar-mhs {
+    gap: 625px;
+    display: flex;
+    padding: 5px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-biruuu);
+    background-image: linear-gradient(0deg, rgba(252, 252, 252, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(118, 189, 255, 1) 100%);
+  }
+  .data-rekening-frame80 {
+    display: flex;
+    padding: 0 0 0 20px;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+  }
+  .data-rekening-logo {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-frame10 {
+    gap: 114px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .data-rekening-logopolijepng2 {
+    width: 47px;
+    height: 45px;
+  }
+  .data-rekening-beasiswa {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-frame79 {
+    gap: 12px;
+    display: flex;
+    padding: 0 20px 0 0;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .data-rekening-iconuser {
+    width: 30px;
+    height: 30px;
+  }
+  .data-rekening-user {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text02 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-dropdown {
+    width: 24px;
+    height: 23px;
+  }
+  .data-rekening-isi {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .data-rekening-sidebar-mahasiswa {
+    gap: 10px;
+    height: 655px;
+    display: flex;
+    padding: 16px 8px;
+    overflow: hidden;
+    box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .data-rekening-frame72 {
+    gap: 110px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-atas {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-profil {
+    gap: 14px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .data-rekening-frame74 {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    border-color: rgba(0, 136, 199, 1);
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-akun {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text04 {
+    color: var(--dl-color-default-primary);
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-frame75 {
+    gap: 10px;
+    width: 44.75px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .data-rekening-icon-sidebar-mhs1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-drop3 {
+    width: 25px;
+    height: 24px;
+  }
+  .data-rekening-isi-profil {
+    gap: 2px;
+    display: flex;
+    padding: 0 0 5px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-pribadi {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-blank {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-blank01 {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text06 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-akademik {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-blank02 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-blank03 {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text08 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-keluarga {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs4 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-blank04 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-blank05 {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text10 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-rekening {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs5 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-blank06 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-blank07 {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs4 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text12 {
+    color: var(--dl-color-default-primary);
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-dokumen {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs6 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-blank08 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-blank09 {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs5 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text14 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-status {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs7 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-checklist {
+    width: 25px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs6 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text16 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-history {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-icon-sidebar-mhs8 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-file {
+    width: 26px;
+    height: 25px;
+  }
+  .data-rekening-font-sidebar-mhs7 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text18 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-frame84 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-frame83 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .data-rekening-form {
+    gap: 145px;
+    display: flex;
+    padding: 2px 0;
+    align-self: stretch;
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-white);
+  }
+  .data-rekening-form1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 0 10px 20px;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+  .data-rekening-text20 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-back {
+    gap: 5px;
+    display: flex;
+    padding: 0 20px 0 0;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .data-rekening-bea {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text22 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-drop {
+    width: 11px;
+    height: 26px;
+  }
+  .data-rekening-ijo {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .data-rekening-text24 {
+    color: var(--dl-color-default-primary);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-data-rekening1 {
+    gap: 35px;
+    display: flex;
+    padding: 40px 45px;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data-rekening-isi-data-rekening {
+    gap: 15px;
+    width: 931.8125px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data-rekening-nama-bank {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-frame86 {
+    gap: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-text26 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    width: 250px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-frame87 {
+    gap: 10px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-rectangle13 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .data-rekening-no-rek {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-frame861 {
+    gap: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-text28 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    width: 250px;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .data-rekening-frame871 {
+    gap: 10px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .data-rekening-rectangle131 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .data-rekening-frame44 {
+    gap: 10px;
+    width: 911.8125px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data-rekening-button {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .data-rekening-text30 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
