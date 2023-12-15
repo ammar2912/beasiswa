@@ -1,0 +1,948 @@
+.isi-dokumen-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .isi-dokumen-isi-dokumen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .isi-dokumen-navbar-mhs {
+    gap: 625px;
+    display: flex;
+    padding: 5px 0;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-biruuu);
+    background-image: linear-gradient(0deg, rgba(252, 252, 252, 1) 0%, rgba(255, 255, 255, 1) 27%, rgba(118, 189, 255, 1) 100%);
+  }
+  .isi-dokumen-frame80 {
+    display: flex;
+    padding: 0 0 0 20px;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+  }
+  .isi-dokumen-logo {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-frame10 {
+    gap: 114px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .isi-dokumen-logopolijepng2 {
+    width: 47px;
+    height: 45px;
+  }
+  .isi-dokumen-beasiswa {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-frame79 {
+    gap: 12px;
+    display: flex;
+    padding: 0 20px 0 0;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .isi-dokumen-iconuser {
+    width: 30px;
+    height: 30px;
+  }
+  .isi-dokumen-user {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text02 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-dropdown {
+    width: 24px;
+    height: 23px;
+  }
+  .isi-dokumen-isi {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .isi-dokumen-sidebar-mahasiswa {
+    gap: 10px;
+    height: 655px;
+    display: flex;
+    padding: 16px 8px;
+    overflow: hidden;
+    box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .isi-dokumen-frame72 {
+    gap: 110px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-atas {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-profil {
+    gap: 14px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .isi-dokumen-frame74 {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    border-color: rgba(0, 136, 199, 1);
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-akun {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text04 {
+    color: #0088C7;
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-frame75 {
+    gap: 10px;
+    width: 44.75px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .isi-dokumen-icon-sidebar-mhs1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-drop3 {
+    width: 25px;
+    height: 24px;
+  }
+  .isi-dokumen-isi-profil {
+    gap: 2px;
+    display: flex;
+    padding: 0 0 5px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-pribadi {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-blank {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-blank01 {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text06 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-akademik {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-blank02 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-blank03 {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text08 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-keluarga {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs4 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-blank04 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-blank05 {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs3 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text10 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rekening {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs5 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-blank06 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-blank07 {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs4 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text12 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-dokumen {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs6 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-blank08 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-blank09 {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs5 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text14 {
+    color: #0088C7;
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-status {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs7 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-checklist {
+    width: 25px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs6 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text16 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-history {
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-icon-sidebar-mhs8 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-file {
+    width: 26px;
+    height: 25px;
+  }
+  .isi-dokumen-font-sidebar-mhs7 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text18 {
+    color: var(--dl-color-default-grey);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-frame84 {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-frame83 {
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-form {
+    gap: 145px;
+    display: flex;
+    padding: 2px 0;
+    align-self: stretch;
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--dl-color-default-white);
+  }
+  .isi-dokumen-form1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px 0 10px 20px;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+  .isi-dokumen-text20 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-back {
+    gap: 5px;
+    display: flex;
+    padding: 0 20px 0 0;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .isi-dokumen-bea {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text22 {
+    color: var(--dl-color-default-black);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-drop {
+    width: 11px;
+    height: 26px;
+  }
+  .isi-dokumen-ijo {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .isi-dokumen-text24 {
+    color: #0088C7;
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-dokumen1 {
+    gap: 35px;
+    display: flex;
+    padding: 40px 45px;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .isi-dokumen-isi-dokumen1 {
+    gap: 15px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-cv {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text26 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle11 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text28 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-nilai {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text30 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle111 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button1 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text32 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-kk {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text34 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle112 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button2 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text36 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-ktp {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text38 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle113 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button3 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text40 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-sertif {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text42 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle114 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button4 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text44 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-pendukung {
+    gap: 3px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-text46 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-rectangle115 {
+    width: 440px;
+    height: 50px;
+    z-index: 1;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .isi-dokumen-button5 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    z-index: 2;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text48 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .isi-dokumen-frame44 {
+    gap: 10px;
+    width: 596.5px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .isi-dokumen-button6 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .isi-dokumen-text50 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,553 @@
+.login-login {
+    gap: 20px;
+    display: flex;
+    padding: 0 50px 20px 0;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 0 0 1px;
+  }
+  .login-sidebar {
+    gap: 20px;
+    height: 443px;
+    display: flex;
+    padding: 20px 18px 20px 65px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    flex-direction: column;
+    background-color: var(--dl-color-default-white);
+  }
+  .login-text {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    font-size: 18px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text02 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 1;
+    font-size: 18px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text04 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 2;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text06 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 3;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text08 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 4;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text10 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 5;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text12 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 6;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text14 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 7;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text16 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    z-index: 8;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-tablerlistcheck {
+    top: 306px;
+    left: 19px;
+    width: 20px;
+    height: 20px;
+    z-index: 9;
+    position: absolute;
+  }
+  .login-mingcutefileline {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .login-group {
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .login-vector {
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+  .login-vector1 {
+    top: 1.6666669845581055px;
+    left: 3.3333334922790527px;
+    width: 13px;
+    height: 17px;
+    position: absolute;
+  }
+  .login-iconparkoutlinepeople {
+    top: 23px;
+    left: 19px;
+    width: 20px;
+    height: 20px;
+    z-index: 11;
+    position: absolute;
+  }
+  .login-majesticonslogoutline {
+    top: 400px;
+    left: 21px;
+    width: 20px;
+    height: 20px;
+    z-index: 12;
+    position: absolute;
+  }
+  .login-gridiconsdropdown {
+    top: 21px;
+    left: 200px;
+    width: 25px;
+    height: 25px;
+    z-index: 13;
+    position: absolute;
+  }
+  .login-data-pribadi {
+    gap: 35px;
+    height: 458px;
+    display: flex;
+    padding: 15px 20px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .login-text18 {
+    color: rgba(0, 0, 0, 1);
+    width: 267px;
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-isi-data-diri {
+    gap: 15px;
+    width: 440px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login-nik {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text20 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle13 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-nama {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text22 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text24 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-jk {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text26 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle131 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-tl {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text28 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle132 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-ttl {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text30 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle133 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-alamat {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text32 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle134 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-agama {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text34 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-rectangle135 {
+    width: 220px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-email {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .login-text36 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-text38 {
+    color: rgba(0, 0, 0, 0.8500000238418579);
+    height: auto;
+    flex-grow: 1;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-frame44 {
+    gap: 10px;
+    width: 596.5px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login-button {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0088C7;
+  }
+  .login-text40 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-foto {
+    gap: 15px;
+    display: flex;
+    padding: 70px 60px;
+    flex-grow: 1;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .login-rectangle12 {
+    width: 150px;
+    height: 200px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+  }
+  .login-button1 {
+    gap: 10px;
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-end;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: var(--dl-color-default-primary);
+  }
+  .login-text42 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .page-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  

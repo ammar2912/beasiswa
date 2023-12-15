@@ -1,0 +1,771 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.beasiswa-2-sTE {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk {
+  box-sizing: border-box;
+  padding: 1.3rem 6.9rem 1.4rem 6.4rem;
+  width: 100%;
+  height: 8rem;
+  background-color: rgba(255, 255, 255, 0.9200000167);
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU .rectangle-6-ra4 {
+  margin-right: 62.9rem;
+  width: 5.2rem;
+  height: 5.3rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU .beranda-B6Y {
+  margin: 0.9rem 4.4rem 0rem 0rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU .beasiswa-qB6 {
+  margin: 0.9rem 3.4rem 0rem 0rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU .tentang-9Bn {
+  margin: 0.9rem 3.3rem 0rem 0rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-oihn-znk .atas-7cU .akun-s7n {
+  margin-top: 0.9rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW {
+  width: 100%;
+  height: 283.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .rectangle-28-v64 {
+  width: 128rem;
+  height: 241.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 136, 199, 0.0500000007);
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk {
+  width: 119.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 3.2rem;
+  top: 10.7rem;
+  overflow: hidden;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .rectangle-24-BXn {
+  width: 118.1rem;
+  height: 38.4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .rectangle-23-hW8 {
+  width: 22rem;
+  height: 6rem;
+  cursor: pointer;
+  position: absolute;
+  left: 89.8rem;
+  top: 33.9rem;
+  background-color: #0088c7;
+  border-radius: 0.2rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .bsi-maslahat-dan-bank-syariah-indonesia-kembali-membuka-pendaftaran-beasiswa-bsi-2023-melalui-bsi-maslahat-scholarship-dan-memberi-kesempatan-bagi-mahasiswa-dari-berbagai-kampus-mitra-untuk-mendaftar-beasiswa-bsi-membuka-dua-peluang-beasiswa-sekaligus-yakni-bsi-maslahat-scholarship-inspirasi-dan-bsi-maslahat-scholarship-prestasi-bsi-maslahat-scholarship-inspirasi-adalah-beasiswa-yang-ditujukan-untuk-pemerataan-pendidikan-bagi-mahasiswa-prasejahtera-beasiswa-ini-lebih-ditujukan-kepada-mahasiswa-dari-keluarga-kurang-mampu-sedangkan-bsi-scholarship-prestasi-adalah-program-beasiswa-yang-ditujukan-untuk-mahasiswa-berprestasi-dari-sejumlah-kampus-dan-jurusan-yang-telah-ditetapkan-BgC {
+  width: 101.9rem;
+  height: 16rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 16.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .bsi-maslahat-dan-bank-syariah-indonesia-kembali-membuka-pendaftaran-beasiswa-bsi-2023-melalui-bsi-maslahat-scholarship-dan-memberi-kesempatan-bagi-mahasiswa-dari-berbagai-kampus-mitra-untuk-mendaftar-beasiswa-bsi-membuka-dua-peluang-beasiswa-sekaligus-yakni-bsi-maslahat-scholarship-inspirasi-dan-bsi-maslahat-scholarship-prestasi-bsi-maslahat-scholarship-inspirasi-adalah-beasiswa-yang-ditujukan-untuk-pemerataan-pendidikan-bagi-mahasiswa-prasejahtera-beasiswa-ini-lebih-ditujukan-kepada-mahasiswa-dari-keluarga-kurang-mampu-sedangkan-bsi-scholarship-prestasi-adalah-program-beasiswa-yang-ditujukan-untuk-mahasiswa-berprestasi-dari-sejumlah-kampus-dan-jurusan-yang-telah-ditetapkan-BgC .bsi-maslahat-dan-bank-syariah-indonesia-kembali-membuka-pendaftaran-beasiswa-bsi-2023-melalui-bsi-maslahat-scholarship-dan-memberi-kesempatan-bagi-mahasiswa-dari-berbagai-kampus-mitra-untuk-mendaftar-beasiswa-bsi-membuka-dua-peluang-beasiswa-sekaligus-yakni-bsi-maslahat-scholarship-inspirasi-dan-bsi-maslahat-scholarship-prestasi-bsi-maslahat-scholarship-inspirasi-adalah-beasiswa-yang-ditujukan-untuk-pemerataan-pendidikan-bagi-mahasiswa-prasejahtera-beasiswa-ini-lebih-ditujukan-kepada-mahasiswa-dari-keluarga-kurang-mampu-sedangkan-bsi-scholarship-prestasi-adalah-program-beasiswa-yang-ditujukan-untuk-mahasiswa-berprestasi-dari-sejumlah-kampus-dan-jurusan-yang-telah-ditetapkan-BgC-sub-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .bsi-maslahat-dan-bank-syariah-indonesia-kembali-membuka-pendaftaran-beasiswa-bsi-2023-melalui-bsi-maslahat-scholarship-dan-memberi-kesempatan-bagi-mahasiswa-dari-berbagai-kampus-mitra-untuk-mendaftar-beasiswa-bsi-membuka-dua-peluang-beasiswa-sekaligus-yakni-bsi-maslahat-scholarship-inspirasi-dan-bsi-maslahat-scholarship-prestasi-bsi-maslahat-scholarship-inspirasi-adalah-beasiswa-yang-ditujukan-untuk-pemerataan-pendidikan-bagi-mahasiswa-prasejahtera-beasiswa-ini-lebih-ditujukan-kepada-mahasiswa-dari-keluarga-kurang-mampu-sedangkan-bsi-scholarship-prestasi-adalah-program-beasiswa-yang-ditujukan-untuk-mahasiswa-berprestasi-dari-sejumlah-kampus-dan-jurusan-yang-telah-ditetapkan-BgC .bsi-maslahat-dan-bank-syariah-indonesia-kembali-membuka-pendaftaran-beasiswa-bsi-2023-melalui-bsi-maslahat-scholarship-dan-memberi-kesempatan-bagi-mahasiswa-dari-berbagai-kampus-mitra-untuk-mendaftar-beasiswa-bsi-membuka-dua-peluang-beasiswa-sekaligus-yakni-bsi-maslahat-scholarship-inspirasi-dan-bsi-maslahat-scholarship-prestasi-bsi-maslahat-scholarship-inspirasi-adalah-beasiswa-yang-ditujukan-untuk-pemerataan-pendidikan-bagi-mahasiswa-prasejahtera-beasiswa-ini-lebih-ditujukan-kepada-mahasiswa-dari-keluarga-kurang-mampu-sedangkan-bsi-scholarship-prestasi-adalah-program-beasiswa-yang-ditujukan-untuk-mahasiswa-berprestasi-dari-sejumlah-kampus-dan-jurusan-yang-telah-ditetapkan-BgC-sub-3 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .beasiswa-s1-dari-bank-syraiah-indonesia-Guv {
+  width: 105.6rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 6.1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .pendaftaran-12-september-2023-6-oktober-2023-AEc {
+  width: 58.1rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 12.2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-1-enk .detail-TDi {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 95.8rem;
+  top: 35.7rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ {
+  width: 119.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 3.2rem;
+  top: 136.7rem;
+  overflow: hidden;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .rectangle-24-HTe {
+  width: 118.1rem;
+  height: 38.4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .rectangle-23-1uS {
+  width: 22rem;
+  height: 6rem;
+  position: absolute;
+  left: 89.8rem;
+  top: 33.9rem;
+  background-color: #0088c7;
+  border-radius: 0.2rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-syarat-dan-ketentuan--9Ex {
+  width: 101.4rem;
+  height: 16rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 16.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .kartu-indonesia-pintar-kuliah-oyi {
+  width: 81.1rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 20.45rem;
+  top: 6.1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .pendaftaran-5-mei-2023-25-juni-2023-v2k {
+  width: 45.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 12.2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-4-mEQ .detail-Qic {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 95.4rem;
+  top: 35.7rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL {
+  width: 119.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 3.2rem;
+  top: 178.7rem;
+  overflow: hidden;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .rectangle-24-rqW {
+  width: 118.1rem;
+  height: 38.4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .rectangle-23-zB2 {
+  width: 22rem;
+  height: 6rem;
+  position: absolute;
+  left: 89.8rem;
+  top: 33.9rem;
+  background-color: #0088c7;
+  border-radius: 0.2rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-syarat-dan-ketentuan--vKa {
+  width: 101.4rem;
+  height: 16rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 16.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .beasiswa-afirmasi-pendidikan-tinggi-bq2 {
+  width: 95.6rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 13.2rem;
+  top: 6.1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .pendaftaran-5-mei-2023-25-juni-2023-uqi {
+  width: 45.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 12.2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-5-XYL .detail-nuW {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 95.2rem;
+  top: 35.7rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma {
+  width: 119.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 3.2rem;
+  top: 94.7rem;
+  overflow: hidden;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .rectangle-24-2or {
+  width: 118.1rem;
+  height: 38.4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .rectangle-23-AfA {
+  width: 22rem;
+  height: 6rem;
+  position: absolute;
+  left: 89.8rem;
+  top: 33.8rem;
+  background-color: #0088c7;
+  border-radius: 0.2rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-syarat-dan-ketentuan--6Hv {
+  width: 101.4rem;
+  height: 16rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 16.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .beasiswa-kemendikbud-npx {
+  width: 59.8rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 31.1rem;
+  top: 6.1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .pendaftaran-5-mei-2023-25-juni-2023-VzG {
+  width: 45.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 12.2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-3-hma .detail-zRE {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 95.4rem;
+  top: 35.6rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv {
+  width: 119.8rem;
+  height: 42.9rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 52.7rem;
+  overflow: hidden;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .rectangle-24-E4g {
+  width: 118.1rem;
+  height: 38.4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 3.6rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .rectangle-23-Mf6 {
+  width: 22rem;
+  height: 6rem;
+  position: absolute;
+  left: 89.6rem;
+  top: 33.9rem;
+  background-color: #0088c7;
+  border-radius: 0.2rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-beasiswa-indonesia-bangkit-bib-merupakan-skema-beasiswa-prestisius-kolaborasi-antara-kementerian-agama-dan-lpdp-kementerian-keuangan-republik-indonesia-untuk-masyarakat-indonesia-yang-ingin-mengembangakan-karier-pengalaman-dan-jaringan-kampus-di-dalam-dan-luar-negeri-syarat-dan-ketentuan--HYk {
+  width: 101.4rem;
+  height: 16rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 16.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .beasiswa-bca-finance-PEQ {
+  width: 56.4rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 32.8rem;
+  top: 6.1rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #0088c7;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .pendaftaran-5-mei-2023-25-juni-2023-6Pi {
+  width: 45.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 8.2rem;
+  top: 12.2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bea-2-JRv .detail-brG {
+  width: 10.2rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 95.7rem;
+  top: 35.7rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt {
+  box-sizing: border-box;
+  padding: 10.6rem 4.3rem 16.4rem 4.3rem;
+  width: 128rem;
+  height: 54.2rem;
+  position: absolute;
+  left: 0;
+  top: 229.3rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn {
+  margin: 0rem 6.05rem 2.247rem 0rem;
+  width: calc(100% - 6.05rem);
+  height: 18.2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc {
+  box-sizing: border-box;
+  padding: 0.6rem 29.25rem 0rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .rectangle-6-5Q4 {
+  margin: 0rem 4.1rem 1.8rem 0rem;
+  width: 15.8rem;
+  height: 15.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY {
+  width: 49.5rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .kemahasiswaan-politeknik-negeri-jember-M6g {
+  margin-bottom: 5.1083rem;
+  max-width: 44.9rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-kdnq-rp8 {
+  margin: 0rem 0rem 2.213rem 0.521rem;
+  width: calc(100% - 0.5208rem);
+  display: flex;
+  align-items: flex-end;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-kdnq-rp8 .mdi-location-BLc {
+  margin: 0rem 2.121rem 0.008rem 0rem;
+  width: 1.4583rem;
+  height: 2.0833rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-kdnq-rp8 .jl-mastrip-po-box-164-jember-jawa-timur-indonesia-HeY {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-byha-nrC {
+  margin: 0rem 33.3rem 0rem 0.313rem;
+  width: calc(100% - 33.6125rem);
+  display: flex;
+  align-items: flex-end;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-byha-nrC .mdi-telephone-izk {
+  margin: 0rem 1.913rem 0.313rem 0rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-cagx-8zc .auto-group-awhn-PvY .auto-group-byha-nrC .item-62-331-333533-edW {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-dsxe-NJc {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-dsxe-NJc .navigasi-Jxx {
+  margin-bottom: 4.2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-dsxe-NJc .beranda-2e4 {
+  margin: 0rem 0.1rem 2.5rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-dsxe-NJc .beasiswa-XKv {
+  margin: 0rem 0.1rem 2.5rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-per4-2Rn .auto-group-dsxe-NJc .tentang-1kt {
+  margin-right: 0.1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-njmn-htc {
+  margin: 0rem 10.05rem 1.817rem 20.156rem;
+  width: calc(100% - 30.2062rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-njmn-htc .fluent-emoji-high-contrast-telephone-ckg {
+  margin-right: 1.9562rem;
+  width: 2.1875rem;
+  height: 1.7969rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-njmn-htc .item-62-331-333531-LRn {
+  margin: 0.153rem 66.45rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-njmn-htc .login-qdS {
+  margin-top: 0.2531rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-o3da-Avc {
+  margin: 0rem 8.55rem 0rem 20.408rem;
+  width: calc(100% - 28.9583rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-o3da-Avc .ic-baseline-email-h9r {
+  margin-right: 1.8083rem;
+  width: 2.0833rem;
+  height: 1.6667rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-o3da-Avc .politeknikpolijeacid-qG4 {
+  margin: 0.283rem 58.75rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8000000119);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .bawah-ivt .auto-group-o3da-Avc .register-wpt {
+  margin-top: 0.6833rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .rectangle-42-4ec {
+  width: 44rem;
+  height: 5rem;
+  position: absolute;
+  left: 78.4rem;
+  top: 4.6rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .cari-beasiswa--z2U {
+  width: 16.5rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 80.1rem;
+  top: 6.2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  font-style: italic;
+  color: rgba(0, 136, 199, 0.5);
+  font-family: Josefin Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.beasiswa-2-sTE .auto-group-jydj-ywW .group-UiL {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 118.4rem;
+  top: 5.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
