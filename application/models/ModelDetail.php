@@ -5,4 +5,11 @@ class ModelDetail extends CI_Model
     {
         return $this->db->get("detailbeasiswa")->result();
     }
+
+        function get_data($id)
+    {
+        $this->db->where("id",$id);
+        return $this->db->get("detailbeasiswa");
+    }
+    
 }
