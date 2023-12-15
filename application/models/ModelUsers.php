@@ -23,7 +23,7 @@ class ModelUsers extends CI_Model{
 
   function get_data_user($id)
   {
-    return $this->db->get_where('user', array('id_user' => $id, ))->row_array();
+    return $this->db->get_where('user', array('iduser' => $id, ))->row_array();
   }
 
   function get_data_edit($id){
@@ -31,7 +31,7 @@ class ModelUsers extends CI_Model{
   }
 
   function cek_username($username){
-      return $this->db->get_where("user",array('nama'=>$username));
+      return $this->db->get_where("user",array('username'=>$username));
   }
   function cek_username2($username,$poli){
       return $this->db->get_where("user",array('nama'=>$username,'Jabatan'=>$poli));
@@ -42,8 +42,8 @@ class ModelUsers extends CI_Model{
   }
 
   function get_data_login($id){
-      $this->db->join('pegawai',"pegawai.NIK = user.pegawai_NIK");
-      return $this->db->get_where("user",array("id_user"=>$id));
+      $this->db->join('pegawai',"pegawai.idpegawai	 = user.pegawai_idpegawai	");
+      return $this->db->get_where("user",array("iduser"=>$id));
   }
 
   function get_group()

@@ -27,35 +27,35 @@ class Login extends CI_Controller{
 			// $password = "asd";
 
 			$data_login = $this->ModelUsers->cek_username($username)->row_array();
-			if ($data_login['id_user']==null) {
+			if ($data_login['iduser']==null) {
 				$this->session->set_flashdata("message", "Username Tidak Terdaftar");
 				// redirect('Login');
 				echo "u";
 			}else{
-				$pw_valid = $data_login['Password'];
+				$pw_valid = $data_login['password'];
 				if (password_verify($password, $pw_valid)) {
-					$id_login = $data_login['id_user'];
-					$nik = $data_login['pegawai_NIK'];
+					$id_login = $data_login['iduser'];
+					$nik = $data_login['pegawai_nip'];
 					$get_data_karyawan = $this->ModelUsers->get_data_login($id_login)->row_array();
-					$jabatan = $get_data_karyawan['Jabatan'];
+					$jabatan = $get_data_karyawan['jabatan'];
 
 					$data_session = array(
 						'id_login' => $id_login,
 						'nik'      => $nik,
-						'username' => $data_login['Nama'],
+						'username' => $data_login['username'],
 						'karyawan' => $get_data_karyawan['nama'],
-						'jabatan'  => $get_data_karyawan['Jabatan'],
+						'jabatan'  => $get_data_karyawan['jabatan'],
 					);
 					$this->session->set_userdata($data_session);
 					$data_riwayat = array(
 						'NIK' 					=> $nik,
-						'user_id_user'	=> $id_login,
+						'user_iduser'	=> $id_login,
 						'last_login'		=> date('Y-m-d H:i:s'),
 						'ip'						=> $this->input->ip_address()
 					);
-					$this->db->insert('riwayat_login', $data_riwayat);
-					$this->db->reset_query();
-					$this->db->where($data_riwayat);
+					// $this->db->insert('riwayat_login', $data_riwayat);
+					// $this->db->reset_query();
+					// $this->db->where($data_riwayat);
 					// $data_riwayat_login = $this->db->get('riwayat_login')->row_array();
 					// $this->session->set_userdata(array('no_login'=>$data_riwayat_login['no_login']));
 					echo base_url("Home/admin");
