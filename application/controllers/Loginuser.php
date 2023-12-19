@@ -28,7 +28,7 @@ class Loginuser extends CI_Controller {
             $this->session->set_userdata('username', $user->username);
             
             // Redirect to dashboard or desired page
-            redirect('Home');
+            redirect('Beasiswa/datapribadibeasiswa');
         } else {
             // Failed login attempt
             $this->session->set_flashdata('error', 'Invalid username or password');
