@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<!-- header -->
+  <!-- header -->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
       <div class="container-fluid">
@@ -22,13 +22,13 @@
       </div>
     </nav>
   </header>
-<!-- endheader -->
+  <!-- endheader -->
 
   <div class="container-fluid">
-    <div class="row flex-nowrap">
+    <div class="d-flex flex-row">
       <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
         <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-<!-- sidebar -->
+          <!-- sidebar -->
           <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             < </li>
               <li>
@@ -61,8 +61,8 @@
               </li>
               <li>
                 <a href="#" class="nav-link px-0 align-middle">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                    height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
                     <path
                       d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434m6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434" />
@@ -71,8 +71,8 @@
               </li>
               <li>
                 <a href="#" class="nav-link px-0 align-middle">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                    height="16" fill="currentColor" class="bi bi-heartbreak-fill" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heartbreak-fill" viewBox="0 0 16 16">
                     <path
                       d="M8.931.586 7 3l1.5 4-2 3L8 15C22.534 5.396 13.757-2.21 8.931.586ZM7.358.77 5.5 3 7 7l-1.5 3 1.815 4.537C-6.533 4.96 2.685-2.467 7.358.77Z" />
                   </svg>
@@ -80,42 +80,64 @@
               </li>
 
               </li>
-<!-- sidebar end -->
+              <!-- sidebar end -->
           </ul>
           <hr>
         </div>
       </div>
       <form action="/submit_form" method="post">
-      <div class="container">
-  <h2 class="text-center">Data Output</h2>
-  <div class="d-flex flex-row  mb-3 p-2">
-  <div class="p-2  border-right">
-  <img src="<?= base_url('desain/fotopas.png') ?>" alt="Deskripsi Gambar"width="250" height="300">
-</div>
-<div class="p-2  border-right">
-  <div class="output-container">
-    <div class="mb-3">
-      <label for="nik" class="form-label">NIK:</label>
-      <span id="nik" class="output-field">1234567890123456</span>
+        <div class="container">
+          <h2 class="align-text-top">Data Pribadi</h2>
+          <div class="d-flex flex-row  mb-3 p-2">
+            <div class="p-2  border-right">
+              <img src="<?= base_url('desain/fotopas.png') ?>" alt="Deskripsi Gambar" width="250" height="300">
+            </div>
+            <div class="p-2  border-right">
+              <div class="output-container">
+                <div class="mb-3">
+                  <label for="nik" class="form-label">NIK:</label>
+                </div>  
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama:</label>
+                </div>
+                <div class="mb-3">
+                  <label for="nik" class="form-label">Tempat, Tanggal Lahir:</label>
+                </div>
+                <div class="mb-3">
+                  <label for="jenisKelamin" class="form-label">Jenis Kelamin:</label>
+                </div>
+                <div class="mb-3">
+                  <label for="alamat" class="form-label">Alamat:</label>
+                </div>
+                <div class="mb-3">
+                  <label for="nik" class="form-label">No. Telepon:</label>
+                </div>
+                <div class="mb-3">
+                  <label for="nik" class="form-label">Email SSO:</label>
+                </div>
+              </div>
+            </div>
+            <div class="p-2  border-right">
+              <div class="output-container">
+              <div class="mb-4">
+                <span id="nik" class="output-field">1234567890123456</span>
+              </div>
+              <div class="mb-4">
+                <span id="nama" class="output-field">John Doe</span>
+              </div>
+              <div class="mb-4"> 
+                <span id="jenisKelamin" class="output-field">Laki-Laki</span>
+              </div>
+              <div class="mb-3">
+                <span id="alamat" class="output-field">Jl. Contoh No. 123</span>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    <div class="mb-3">
-      <label for="nama" class="form-label">Nama:</label>
-      <span id="nama" class="output-field">John Doe</span>
-    </div>
-    <div class="mb-3">
-      <label for="jenisKelamin" class="form-label">Jenis Kelamin:</label>
-      <span id="jenisKelamin" class="output-field">Laki-Laki</span>
-    </div>
-    <div class="mb-3">
-      <label for="alamat" class="form-label">Alamat:</label>
-      <span id="alamat" class="output-field">Jl. Contoh No. 123</span>
-    </div>
-    </div></div>
-  </div>
-</div>
 
 
-      <!-- <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
+    <!-- <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
       <h2>Edit Bio Data</h2>
       <form>
         <div class="mb-3">
@@ -133,20 +155,20 @@
         <button type="submit" class="btn btn-primary">Save</button>
       </form>
     </main> -->
-      </div>
-    </div>
+  </div>
+  </div>
   </div>
   <div class="row">
     <nav id="sidebar" class="col-md-2 col-lg-2 d-md-block bg-light sidebar">
-      
+
     </nav>
 
-    
+
   </div>
   </div>
 
 
-  
+
   <footer class="fixed-bottom text-center bg-dark text-white p-2">
     &copy; 2023 Your Company Name. All rights reserved.
   </footer>
