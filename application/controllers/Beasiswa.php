@@ -10,10 +10,21 @@ class Beasiswa extends CI_Controller{
     $this->load->model("ModelBeasiswa");
     $this->load->model("ModelDetail");
   }
+
   function index()
   {
-    $data['all_data'] = $this->ModelDetail->get_all();
-    $this->load->view('Landing/Beasiswa/list',$data);
+
+    $this->load->library('pagination');
+    $config['base_url'] = base_url('beasiswa/index');
+    $config['total_rows'] = $this->ModelDetail->count_all();
+    $config['per_page'] = 10; // Jumlah data per halaman
+
+    $this->pagination->initialize($config);
+
+    $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+    $data['all_data'] = $this->ModelDetail->get_all($config['per_page'], $page);
+
+    $this->load->view('Landing/Beasiswa/list', $data);
   }
 
   function detail($id)
@@ -21,6 +32,16 @@ class Beasiswa extends CI_Controller{
     $data['detail_beasiswa'] = $this->ModelDetail->get_data($id)->row(); 
     $this->load->view('Beasiswa/detail', $data); 
   }
+
+  function search()
+{
+    $keyword = $this->input->get('keyword');
+    echo "Keyword: " . $keyword; // Cek apakah keyword telah diterima dengan benar
+
+    $this->load->model('ModelDetail');
+    $data['beasiswa'] = $this->ModelDetail->searchBeasiswa($keyword);
+    $this->load->view('Landing/Beasiswa/list', $data);
+}
 
   function Beasiswa(){
   $data = array(
@@ -64,8 +85,6 @@ class Beasiswa extends CI_Controller{
     );
     $this->load->view('index', $data);
   }
-
-
 
   function update()
   {
