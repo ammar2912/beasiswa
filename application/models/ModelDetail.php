@@ -6,6 +6,14 @@ class ModelDetail extends CI_Model
         return $this->db->get("detailbeasiswa")->result();
     }
 
+<<<<<<< HEAD
+        function get_data($id)
+    {
+        $this->db->where("id",$id);
+        return $this->db->get("detailbeasiswa");
+    }
+    
+=======
     public function insertBeasiswa( $data) {
         $this->db->insert('detailbeasiswa', $data);
     }
@@ -19,4 +27,5 @@ class ModelDetail extends CI_Model
         $this->db->where('id', $id);
         $this->db->update('detailbeasiswa', $data);
     }
+>>>>>>> 5390febf857b919b2a9cd7027799b799d7d21615
 }

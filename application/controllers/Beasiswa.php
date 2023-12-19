@@ -10,7 +10,6 @@ class Beasiswa extends CI_Controller{
     $this->load->model("ModelBeasiswa");
     $this->load->model("ModelDetail");
   }
-
   function index()
   {
     $data['all_data'] = $this->ModelDetail->get_all();
@@ -19,10 +18,8 @@ class Beasiswa extends CI_Controller{
 
   function detail($id)
   {
-    $data = array(
-      'data'  => $this->ModelBeasiswa->get_data($id)->row_array(),
-     );
-    $this->load->view('Beasiswa/detail',$data);
+    $data['detail_beasiswa'] = $this->ModelDetail->get_data($id)->row(); 
+    $this->load->view('Beasiswa/detail', $data); 
   }
 
   function Beasiswa(){
@@ -144,10 +141,10 @@ class Beasiswa extends CI_Controller{
     }
 
 
-    public function detailbeasiswa()
-    {
-      $this->load->view('Beasiswa/detail');
-    }
+    // public function detailbeasiswa()
+    // {
+    //   $this->load->view('Beasiswa/detail');
+    // }
 
     public function loginbeasiswa()
     {

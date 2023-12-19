@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 <link href="<?php echo base_url() ?>desain/landing/berita/css/owl.carousel.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url() ?>desain/landing/berita/css/owl.theme.default.css" rel="stylesheet" type="text/css" />
-
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -27,16 +26,6 @@
 
     <body>
 
-      <!-- <div id="preloader">
-    <div class="jumper">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </div> -->
-      <!-- ** Preloader End ** -->
-
-
       <!-- ** Header Area Start ** -->
       <header class="header-area header-sticky">
         <div class="row">
@@ -45,17 +34,14 @@
           </div>
         </div>
       </header>
-
       <div class="container-fluid pb-4" style="padding-top: 100px">
         <div class="container paddding">
           <div class="row mx-0">
-
             <form class="form-inline my-2 my-lg-0 w-100 d-flex flex-column align-items-end">
               <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4 d-flex justify-content-between w-100">BEASISWA
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               </div>
             </form>
-
             <div class="row">
               <?php foreach ($all_data as $data): ?>
                 <div class="col-sm-6">
@@ -69,7 +55,7 @@
                       <p class="card-text">Tanggal Pendaftaran : <?= $data->tanggalpendaftaran ?></p>
                       <p class="card-text">Tanggal Penutupan : <?= $data->tanggalpenutupan ?></p>
                       <div class="card-body d-flex flex-column align-items-center text-center">
-                        <a href="beasiswa/detailbeasiswa" class="btn btn-primary ">DETAIL</a>
+                        <a href="<?=base_url('beasiswa/detail/') . $data->id ?>" class="btn btn-primary">DETAIL</a>
                       </div>
                     </div>
                   </div>
@@ -87,5 +73,4 @@
         $("#TableR5").DataTable();
       </script>
     </body>
-
 </html>
