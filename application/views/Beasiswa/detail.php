@@ -2,7 +2,6 @@
 <html lang="en">
 <?php $this->load->view("Landing/css") ?>
 <link href="<?php echo base_url() ?>desain/dist/css/style.min.css" rel="stylesheet">
-
 <link href="<?php echo base_url() ?>desain/landing/berita/css/media_query.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url() ?>desain/landing/berita/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -17,7 +16,6 @@
 <script src="<?php echo base_url() ?>desain/landing/berita/js/modernizr-3.5.0.min.js"></script>
 
 <body>
-
     <!-- ** Header Area Start ** -->
     <header class="header-area header-sticky">
         <div class="row">
@@ -26,7 +24,6 @@
             </div>
         </div>
     </header>
-
     <div class="container-fluid pb-4" style="padding-top: 100px">
         <div class="container paddding">
             <div class="row mx-0">
@@ -53,27 +50,39 @@
                                                 echo "<p class='persyaratan'><reguler></strong> $persyaratan</p>";
                                             }
                                             ?>
-                            </div>
-                            <div class="card-body d-flex flex-column align-items-center text-center">
-                                <div class="card-body">
-                                    <a href="<?=base_url('loginuser/')?>"class="btn"  style="border-radius: 3px; border-color: #0088C7; color: #0088C7;">DOWNLOAD FILE</a>
-                                    <a href="<?=base_url('loginuser/')?>" class="btn btn-primary ">DAFTAR BEASISWA</a>
+                                        </div>
+                                        <?php
+                                        $tanggal_pendaftaran = $detail_beasiswa->tanggalpendaftaran;
+                                        $tanggal_pendaftaran_formatted = date('Y-m-d', strtotime($tanggal_pendaftaran));
+                                        $tanggal_hari_ini = date('Y-m-d');
+                                        if ($tanggal_pendaftaran_formatted <= $tanggal_hari_ini) {
+                                            $link = base_url('loginuser/');
+                                            $button_class = 'btn btn-primary';
+                                        } else {
+                                            $link = '#'; 
+                                            $button_class = 'btn disabled'; 
+                                        }
+                                        ?>
+                                        <div class="card-body d-flex flex-column align-items-center text-center">
+                                            <div class="card-body">
+                                                <a href="<?=base_url('loginuser/')?>"class="btn"  style="border-radius: 3px; border-color: #0088C7; color: #0088C7;">DOWNLOAD FILE</a>
+                                                <a href="<?= $link ?>" class="<?= $button_class ?>" style="border-radius: 3px; border-color: #CBCBCB; ">DAFTAR BEASISWA</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php else: ?>
+                                    <p>Beasiswa ini tidak memiliki detail beasiswa!</p>
+                                <?php endif ?>
                                 </div>
                             </div>
                         </div>
-                        <?php else: ?>
-                          <p>Beasiswa ini tidak memiliki detail beasiswa!</p>
-                    <?php endif ?>
                     </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <?php $this->load->view("Landing/footer") ?>
-        <?php $this->load->view("Landing/js"); ?>
-        <script type="text/javascript">
-            $("#TableR5").DataTable();
+                    <br>
+                    <br>
+                    <?php $this->load->view("Landing/footer") ?>
+                    <?php $this->load->view("Landing/js"); ?>
+                    <script type="text/javascript">
+                        $("#TableR5").DataTable();
         </script>
 </body>
 </html>

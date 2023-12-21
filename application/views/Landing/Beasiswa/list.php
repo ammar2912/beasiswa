@@ -2,7 +2,6 @@
 <html lang="en">
 <?php $this->load->view("Landing/css") ?>
 <link href="<?php echo base_url() ?>desain/dist/css/style.min.css" rel="stylesheet">
-
 <link href="<?php echo base_url() ?>desain/landing/berita/css/media_query.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url() ?>desain/landing/berita/css/bootstrap.css" rel="stylesheet" type="text/css" />
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -23,9 +22,7 @@
     <link href="<?php echo base_url() ?>desain/landing/berita/css/style_1.css" rel="stylesheet" type="text/css" />
     <!-- Modernizr JS -->
     <script src="<?php echo base_url() ?>desain/landing/berita/js/modernizr-3.5.0.min.js"></script>
-
     <body>
-
       <!-- ** Header Area Start ** -->
       <header class="header-area header-sticky">
         <div class="row">
@@ -39,7 +36,14 @@
           <div class="row mx-0">
             <form class="form-inline my-2 my-lg-0 w-100 d-flex flex-column align-items-end">
               <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4 d-flex justify-content-between w-100">BEASISWA
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <form action="<?php echo base_url('search');?>" method="get" class="form-inline my-2 my-lg-0">
+                <div class="input-group">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Cari..." aria-label="Search" name="keyword">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                </div>
+            </form>
               </div>
             </form>
             <div class="row">
@@ -61,7 +65,10 @@
                   </div>
                 </div>
               <?php endforeach ?>
-            </div>
+                </div>
+                  <div class="pagination-links" style="color: #0088C7;">
+                  <?php echo $this->pagination->create_links(); ?>
+                </div>
           </div>
         </div>
       </div>
