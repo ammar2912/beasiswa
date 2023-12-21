@@ -2,203 +2,161 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Dashboard Admin</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="<?php echo base_url('assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/bootstrap-icons/bootstrap-icons.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/quill/quill.snow.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/quill/quill.bubble.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/remixicon/remixicon.css'); ?>" rel="stylesheet">
-<link href="<?php echo base_url('assets/vendor/simple-datatables/style.css'); ?>" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/style.css'); ?>">
-
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Updated: Nov 17 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Data Rekening</title>
 </head>
 
 <body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-
-    <div class="d-flex align-items-center justify-content-between">
-      <a  class="logo d-flex align-items-center">
-        <img src="<?=base_url('desain/logo_polije.png')?>" alt="">
-        <span class="d-none d-lg-block" style="font-size: smaller;">Kemahasiswaan POLIJE</span>
-      </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div><!-- End Logo -->
-    <nav class="header-nav ms-auto">
-      <ul class="d-flex align-items-center">
-        <li class="nav-item dropdown pe-3">
-
-          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
-          </a>
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-            
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="<?= base_url('admin/logout'); ?>">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>LogOut</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
-
-      </ul>
-    </nav><!-- End Icons Navigation -->
-
-  </header><!-- End Header -->
-
-  <!-- ======= Sidebar ======= -->
-  <aside id="sidebar" class="sidebar">
-
-    <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link " data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Beasiswa</span><i class="bi bi-chevron-down ms-auto"></i>
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="<?= base_url('desain/logo_polije.png') ?>" alt="Logo" width="30" height="24"
+            class="d-inline-block align-text-top">
+          BEASISWA
         </a>
-        <ul id="tables-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="usermanagement" class="non-active">
-              <i class="bi bi-circle"></i><span>User Management</span>
-            </a>
-          </li>
-          <li>
-            <a class="active">
-              <i class="bi bi-circle"></i><span>Data Beasiwa</span>
-            </a>
-          </li>
-          <li>
-            <a href="usermanagement" class="non-active">
-              <i class="bi bi-circle"></i><span>Verifikasi</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Tables Nav -->
 
-      
-        </ul>
-      </li><!-- End Icons Nav -->
-    </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- endheader -->
 
-  </aside><!-- End Sidebar-->
+  <div class="container-fluid">
+    <div class="d-flex flex-row">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+          <!-- sidebar -->
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            < </li>
+              <li>
+                <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-amazon" viewBox="0 0 16 16">
+                    <path
+                      d="M10.813 11.968c.157.083.36.074.5-.05l.005.005a89.521 89.521 0 0 1 1.623-1.405c.173-.143.143-.372.006-.563l-.125-.17c-.345-.465-.673-.906-.673-1.791v-3.3l.001-.335c.008-1.265.014-2.421-.933-3.305C10.404.274 9.06 0 8.03 0 6.017 0 3.77.75 3.296 3.24c-.047.264.143.404.316.443l2.054.22c.19-.009.33-.196.366-.387.176-.857.896-1.271 1.703-1.271.435 0 .929.16 1.188.55.264.39.26.91.257 1.376v.432c-.199.022-.407.044-.621.065-1.113.114-2.397.246-3.36.67C3.873 5.91 2.94 7.08 2.94 8.798c0 2.2 1.387 3.298 3.168 3.298 1.506 0 2.328-.354 3.489-1.54l.167.246c.274.405.456.675 1.047 1.166ZM6.03 8.431C6.03 6.627 7.647 6.3 9.177 6.3v.57c.001.776.002 1.434-.396 2.133-.336.595-.87.961-1.465.961-.812 0-1.286-.619-1.286-1.533ZM.435 12.174c2.629 1.603 6.698 4.084 13.183.997.28-.116.475.078.199.431C13.538 13.96 11.312 16 7.57 16 3.832 16 .968 13.446.094 12.386c-.24-.275.036-.4.199-.299l.142.087Z" />
+                    <path
+                      d="M13.828 11.943c.567-.07 1.468-.027 1.645.204.135.176-.004.966-.233 1.533-.23.563-.572.961-.762 1.115-.191.154-.333.094-.23-.137.105-.23.684-1.663.455-1.963-.213-.278-1.177-.177-1.625-.13l-.09.009c-.095.008-.172.017-.233.024-.193.021-.245.027-.274-.032-.074-.209.779-.556 1.347-.623Z" />
+                  </svg>
+                  <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Profile</span> </a>
+                <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                  <li class="w-100">
+                    <a href="#" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Pribadi</span> </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Akademik</span> </a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('Beasiswa/datakeluargabeasiswa'); ?>" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Keluarga</span> </a>
+                  </li>
+                  <li>
+                    <a href="<?= base_url('Beasiswa/datarekeningbeasiswa'); ?>" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Rekening</span> </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Dokumen</span> </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                    <path
+                      d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434m6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434" />
+                  </svg>
+                  <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Status Beasiswa</span></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-0 align-middle">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heartbreak-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M8.931.586 7 3l1.5 4-2 3L8 15C22.534 5.396 13.757-2.21 8.931.586ZM7.358.77 5.5 3 7 7l-1.5 3 1.815 4.537C-6.533 4.96 2.685-2.467 7.358.77Z" />
+                  </svg>
+                  <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">History</span></a>
+              </li>
 
-  <main id="main" class="main">
-
-    <div class="pagetitle d-flex justify-content-between align-items-center">
-      <h1>Data Beasiswa</h1>
-      <a class="bi bi-file-plus-fill fs-3" href="<?= base_url('databeasiswa/tambahbeasiswa'); ?>"></a>
-    </div>
-    <div class="pagetitle">
-      <nav>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">Beasiswa</li>
-          <li class="breadcrumb-item">Data Beasiswa</li>
-        </ol>
-      </nav>
-    </div><!-- End Page Title -->
-
-    <section class="section">
-      <div class="row">
-        <div class="col-lg-12">
-
-          <div class="card">
-            <div class="card-body">
-
-              <!-- Table with stripped rows -->
-              <table class="table datatable">
-                <thead>
-                  <tr>
-                    <th>id</th>
-                    <th>Nama Beasiswa</th>
-                    <th>Deskripsi</th>
-                    <th>Penyelenggara</th>
-                    <th>Lama Beasiswa</th>
-                    <th data-type="date" data-format="YYYY/DD/MM">Tanggal Pendaftaran</th>
-                    <th data-type="date" data-format="YYYY/DD/MM">Tanggal Penutupan</th>
-                    <th>persyaratan</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                <?php foreach ($all_data as $data): ?>
-                <tr>
-                    <td><?= $data->id ?></td>
-                    <td><?= $data->namabeasiswa ?></td>
-                    <td><?= $data->deskripsi ?></td>
-                    <td><?= $data->penyelenggara ?></td>
-                    <td><?= $data->lamabeasiswa ?></td>
-                    <td><?= $data->tanggalpendaftaran?></td>
-                    <td><?= $data->tanggalpenutupan ?></td>
-                    <td><?= $data->persyaratan ?></td>
-                    <td>
-                    <a href="<?= base_url('DataBeasiswa/edit/' . $data->id) ?>" class="btn btn-sm btn-warning">
-                        Edit
-                    </a>
-                    </td>
-                </tr>
-            <?php endforeach; ?>
-                </tbody>
-              </table>
-              <!-- End Table with stripped rows -->
-
-            </div>
-          </div>
-
+              </li>
+              <!-- sidebar end -->
+          </ul>
+          <hr>
         </div>
       </div>
-    </section>
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="credits">
-      Designed by Beasiswa
+      <form action="/submit_form" method="post">
+        <div class="container">
+          <h2 class="align-text-top">Data Rekening</h2>
+          <div class="d-flex flex-row  mb-3 p-2">            
+            <div class="p-2  border-right">
+              <div class="output-container">
+                <div class="mb-3">
+                  <label for="namabank" class="form-label">Nama Bank</label>
+                </div>  
+                <div class="mb-3">
+                  <label for="norek" class="form-label">No Rekening</label>
+                </div>
+              </div>
+            </div>
+            <div class="p-2  border-right">
+              <div class="output-container">
+                <?php foreach($user as $u){?>
+              <div class="mb-4">
+                <span id="namaayah" class="output-field"><?=$u->nama_bank?></span>
+              </div>
+              <div class="mb-4">
+                <span id="pekerjaanayah" class="output-field"><?=$u->no_rekening?></span>
+              </div>
+            </div>
+            <div class="text-center" style="position: fixed; top: 600px; left: 600px;">
+            <a href="<?= base_url('Beasiswa/editdatarekeningbeasiswa') ?>" class="btn btn-primary">
+                        Edit
+            </a>
+                  <button type="reset" class="btn btn-secondary">Batal</button>
+            </div>
+          </div>
+        </div>
     </div>
-  </footer><!-- End Footer -->
+    <?php } ?>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
+      <h2>Edit Bio Data</h2>
+      <form>
+        <div class="mb-3">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label">Address</label>
+          <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+      </form>
+    </main> -->
+  </div>
+  </div>
+  </div>
+  <div class="row">
+    <nav id="sidebar" class="col-md-2 col-lg-2 d-md-block bg-light sidebar">
 
-  <!-- Vendor JS Files -->
-<script src="<?php echo base_url('assets/vendor/apexcharts/apexcharts.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/chart.js/chart.umd.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/echarts/echarts.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/quill/quill.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/simple-datatables/simple-datatables.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/tinymce/tinymce.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/vendor/php-email-form/validate.js'); ?>"></script>
+    </nav>
 
-<!-- Template Main JS File -->
-<script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
+
+  </div>
+  </div>
+
+
+
+  <footer class="fixed-bottom text-center bg-dark text-white p-2">
+    &copy; 2023 Your Company Name. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

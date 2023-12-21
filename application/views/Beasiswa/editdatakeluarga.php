@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Input Bio Data</title>
+  <title>Edit Data Keluarga</title>
 </head>
 
 <body>
@@ -85,70 +85,94 @@
           <hr>
         </div>
       </div>
-      <form action="/submit_form" method="post">
         <div class="container">
-          <h2 class="align-text-top">Data Pribadi</h2>
-          <div class="d-flex flex-row  mb-3 p-2">
-            <div class="p-2  border-right">
-              <img src="<?= base_url('desain/fotopas.png') ?>" alt="Deskripsi Gambar" width="250" height="300">
-            </div>
+          <h2 class="align-text-top">Data Keluarga</h2>
+          <div class="d-flex flex-row  mb-3 p-2">            
             <div class="p-2  border-right">
               <div class="output-container">
-                <div class="mb-3">
-                  <label for="nik" class="form-label">NIK:</label>
+                <div class="mb-4">
+                  <label for="namaayah" class="form-label">Nama Ayah</label>
                 </div>  
-                <div class="mb-3">
-                  <label for="nama" class="form-label">Nama:</label>
+                <div class="mb-4">
+                  <label for="pekerjaanayah" class="form-label">Pekerjaan Ayah</label>
+                </div>
+                <div class="mb-4">
+                  <label for="penghasilanayah" class="form-label">Penghasilan Ayah</label>
+                </div>
+                <div class="mb-4">
+                  <label for="statusayah" class="form-label">Status Ayah</label>
+                </div>
+                <div class="mb-4">
+                  <label for="namaibu" class="form-label">Nama Ibu</label>
                 </div>
                 <div class="mb-3">
-                  <label for="nik" class="form-label">Tempat, Tanggal Lahir:</label>
+                  <label for="Pekerjaanibu" class="form-label">Pekerjaan Ibu</label>
+                </div>
+                <div class="mb-4">
+                  <label for="penghasilanibu" class="form-label">Penghasilan Ibu</label>
                 </div>
                 <div class="mb-3">
-                  <label for="jenisKelamin" class="form-label">Jenis Kelamin:</label>
+                  <label for="statusibu" class="form-label">Status Ibu</label>
                 </div>
-                <div class="mb-3">
-                  <label for="alamat" class="form-label">Alamat:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="nik" class="form-label">No. Telepon:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="nik" class="form-label">Email SSO:</label>
+                <div class="mb-4">
+                  <label for="tanggungananak" class="form-label">Tanggungan Anak</label>
                 </div>
               </div>
             </div>
+            <form action="<?= base_url('Beasiswa/editdatakeluarga')?>" method="post">
             <div class="p-2  border-right">
               <div class="output-container">
-              <div class="mb-4">
-                <span id="nik" class="output-field">1234567890123456</span>
-              </div>
-              <div class="mb-4">
-                <span id="nama" class="output-field">John Doe</span>
-              </div>
-              <div class="mb-4"> 
-                <span id="jenisKelamin" class="output-field">Laki-Laki</span>
+                <?php foreach($user as $u){?>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="namaAyah" name="namaAyah" value="<?=$u->nama_ayah?>">
               </div>
               <div class="mb-3">
-                <span id="alamat" class="output-field">Jl. Contoh No. 123</span>
+              <input type="text" class="form-control" id="pekerjaanayah" name="pekerjaanayah" value="<?=$u->pekerjaan_ayah?>"></input>
               </div>
+              <div class="mb-3"> 
+              <input type="text" class="form-control" id="penghasilanayah" name="penghasilanayah" value="<?=$u->penghasilan_ayah?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="statusAyah" name="statusAyah" value="<?=$u->status_ayah?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="namaIbu" name="namaIbu" value="<?=$u->nama_ibu?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="pekerjaanIbu" name="pekerjaanIbu" value="<?=$u->pekerjaan_ibu?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="penghasilanIbu" name="penghasilanIbu" value="<?=$u->penghasilan_ibu?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="statusIbu" name="statusIbu" value="<?=$u->status_ibu?>">
+              </div>
+              <div class="mb-3">
+              <input type="text" class="form-control" id="tanggungan" name="tanggungan" value="<?=$u->tanggungan_anak?>">
+              </div>
+            </div>
+            <div class="text-center">
+                  <button type="submit" name="submit" class="btn btn-primary">SIMPAN</button>
+                  <a href="<?= base_url('Beasiswa/datakeluargabeasiswa')?>" class="btn btn-secondary">BATAL</a>
             </div>
           </div>
         </div>
     </div>
-
+    </form>
+    <?php } ?>
 
     <!-- <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
       <h2>Edit Bio Data</h2>
       <form>
-        <div class="mb-3">
+        <div class="mb-23">
           <label for="fullName" class="form-label">Full Name</label>
           <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
         </div>
-        <div class="mb-3">
+        <div class="mb-23">
           <label for="email" class="form-label">Email</label>
           <input type="email" class="form-control" id="email" placeholder="Enter your email">
         </div>
-        <div class="mb-3">
+        <div class="mb-23">
           <label for="address" class="form-label">Address</label>
           <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"></textarea>
         </div>

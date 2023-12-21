@@ -18,4 +18,15 @@ class User_model extends CI_Model {
 
         return false;
     }
+
+    public function getData($id){
+        $this->db->where("id", $id);
+        $query = $this->db->get('userbeasiswa');  // Gantilah 'nama_tabel' dengan nama tabel yang sesuai
+        return $query->result();
+    }
+
+    public function updateDataKeluarga($id, $data) {
+        $this->db->where('id', $id);
+        $this->db->update('userbeasiswa', $data);
+    }
 }

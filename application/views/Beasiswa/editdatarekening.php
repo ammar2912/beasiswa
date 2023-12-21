@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Input Bio Data</title>
+  <title>Data Rekening</title>
 </head>
 
 <body>
@@ -52,7 +52,7 @@
                     <a href="<?= base_url('Beasiswa/datakeluargabeasiswa'); ?>" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Keluarga</span> </a>
                   </li>
                   <li>
-                    <a href="#" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Rekening</span> </a>
+                    <a href="<?= base_url('Beasiswa/datarekeningbeasiswa'); ?>" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Data Rekening</span> </a>
                   </li>
                   <li>
                     <a href="#" class="nav-link px-sm-4"> <span class="d-none d-sm-inline">Dokumen</span> </a>
@@ -85,57 +85,46 @@
           <hr>
         </div>
       </div>
-      <form action="/submit_form" method="post">
         <div class="container">
-          <h2 class="align-text-top">Data Pribadi</h2>
-          <div class="d-flex flex-row  mb-3 p-2">
-            <div class="p-2  border-right">
-              <img src="<?= base_url('desain/fotopas.png') ?>" alt="Deskripsi Gambar" width="250" height="300">
-            </div>
+          <h2 class="align-text-top">Data Rekening</h2>
+          <div class="d-flex flex-row  mb-3 p-2">            
             <div class="p-2  border-right">
               <div class="output-container">
-                <div class="mb-3">
-                  <label for="nik" class="form-label">NIK:</label>
+                <div class="mb-4">
+                  <label for="namabank" class="form-label">Nama Bank</label>
                 </div>  
-                <div class="mb-3">
-                  <label for="nama" class="form-label">Nama:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="nik" class="form-label">Tempat, Tanggal Lahir:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="jenisKelamin" class="form-label">Jenis Kelamin:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="alamat" class="form-label">Alamat:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="nik" class="form-label">No. Telepon:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="nik" class="form-label">Email SSO:</label>
+                <div class="mb-4">
+                  <label for="norek" class="form-label">No Rekening</label>
                 </div>
               </div>
             </div>
+            <form action="<?= base_url('Beasiswa/editdatarekening')?>" method="post">
             <div class="p-2  border-right">
               <div class="output-container">
-              <div class="mb-4">
-                <span id="nik" class="output-field">1234567890123456</span>
-              </div>
-              <div class="mb-4">
-                <span id="nama" class="output-field">John Doe</span>
-              </div>
-              <div class="mb-4"> 
-                <span id="jenisKelamin" class="output-field">Laki-Laki</span>
+                <?php foreach($user as $u){?>
+              <div class="mb-3">
+              <select class="form-select" aria-label="Default select example" name="namaBank">
+					<option value="BRI">Bank BRI</option>
+					<option value="Mandiri">Bank Mandiri</option>
+                    <option value="BCA">Bank BCA</option>
+                    <option value="BNI">Bank BNI</option>
+                    <option value="CIMB Niaga">Bank CIMB Niaga</option>
+                    <option value="BTN">Bank BTN</option>
+                    <option value="Danamon">Bank Danamon</option>
+                    <option value="BSI">Bank BSI</option>
+				</select>
               </div>
               <div class="mb-3">
-                <span id="alamat" class="output-field">Jl. Contoh No. 123</span>
+              <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="16" min="0" class="form-control" name="noRek" id="noRek" value="<?=$u->no_rekening?>">
               </div>
             </div>
+            <div class="text-center">
+            <button type="submit" name="submit" class="btn btn-primary">SIMPAN</button>
+            <a href="<?= base_url('Beasiswa/datarekeningbeasiswa')?>" class="btn btn-secondary">BATAL</a>
           </div>
         </div>
     </div>
-
+    <?php } ?>
 
     <!-- <main class="col-md-10 ms-sm-auto col-lg-10 px-md-4">
       <h2>Edit Bio Data</h2>

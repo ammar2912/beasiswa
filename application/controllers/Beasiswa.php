@@ -9,6 +9,7 @@ class Beasiswa extends CI_Controller{
     //Codeigniter : Write Less Do More
     $this->load->model("ModelBeasiswa");
     $this->load->model("ModelDetail");
+    $this->load->model("user_model");
   }
   function index()
   {
@@ -19,7 +20,7 @@ class Beasiswa extends CI_Controller{
   function detail($id)
   {
     $data['detail_beasiswa'] = $this->ModelDetail->get_data($id)->row(); 
-    $this->load->view('Beasiswa/detail', $data); 
+    $this->load->view('Beasiswa/detail', $data);
   }
 
   function Beasiswa(){
@@ -158,12 +159,58 @@ class Beasiswa extends CI_Controller{
     public function dataakademikbeasiswa()
     {
       $this->load->view('Beasiswa/dataakademik');
-    } public function datakeluargabeasiswa()
+    } 
+    public function datakeluargabeasiswa()
     {
-      $this->load->view('Beasiswa/datakeluarga');
-    } public function datarekeningbeasiswa()
+      $id=1;
+      $data['user'] = $this->user_model->getdata($id);
+      $this->load->view('Beasiswa/datakeluarga', $data);
+    }
+    public function editdatakeluargabeasiswa()
     {
-      $this->load->view('Beasiswa/datarekening');
+      $id=1;
+      $data['user'] = $this->user_model->getdata($id);
+      $this->load->view('Beasiswa/editdatakeluarga', $data);
+    }
+    public function editdatakeluarga(){
+      $id=1;
+
+      $data = array(
+        'nama_ayah' => $this->input->post('namaAyah'),
+        'nama_ibu' => $this->input->post('namaIbu'),
+        'pekerjaan_ayah' => $this->input->post('pekerjaanayah'),
+        'pekerjaan_ibu' => $this->input->post('pekerjaanIbu'),
+        'penghasilan_ayah' => $this->input->post('penghasilanayah'),
+        'penghasilan_ibu' => $this->input->post('penghasilanIbu'),
+        'status_ayah' => $this->input->post('statusAyah'),
+        'status_ibu' => $this->input->post('statusIbu'),
+        'tanggungan_anak' => $this->input->post('tanggungan')
+    );
+
+    $this->user_model->updateDataKeluarga($id, $data);
+    redirect('/Beasiswa/datakeluargabeasiswa');
+    }
+    public function datarekeningbeasiswa()
+    {
+      $id=1;
+      $data['user'] = $this->user_model->getdata($id);
+      $this->load->view('Beasiswa/datarekening', $data);
+    }
+    public function editdatarekeningbeasiswa()
+    {
+      $id=1;
+      $data['user'] = $this->user_model->getdata($id);
+      $this->load->view('Beasiswa/editdatarekening', $data);
+    }
+    public function editdatarekening(){
+      $id=1;
+        $data = array(
+            'nama_bank' => $this->input->post('namaBank'),
+            'no_rekening' => $this->input->post('noRek')
+        );
+
+    $this->user_model->updateDataKeluarga($id, $data);
+    redirect('/Beasiswa/datarekeningbeasiswa');
     }
     public function dokumenbeasiswa()
     {
@@ -172,7 +219,8 @@ class Beasiswa extends CI_Controller{
     public function statusbeasiswa()
     {
       $this->load->view('Beasiswa/statusbeasiswa');
-    } public function historybeasiswa()
+    } 
+    public function historybeasiswa()
     {
       $this->load->view('Beasiswa/history');
     }
